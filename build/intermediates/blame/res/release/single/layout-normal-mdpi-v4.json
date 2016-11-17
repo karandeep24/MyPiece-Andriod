@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/build/intermediates/res/merged/release/layout-normal-mdpi-v4/deal_payment.xml",
+        "source": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/src/main/res/layout-normal-mdpi/deal_payment.xml"
+    },
+    {
+        "merged": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/build/intermediates/res/merged/release/layout-normal-mdpi-v4/fb_main.xml",
+        "source": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/src/main/res/layout-normal-mdpi/fb_main.xml"
+    },
+    {
+        "merged": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/build/intermediates/res/merged/release/layout-normal-mdpi-v4/first_item.xml",
+        "source": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/src/main/res/layout-normal-mdpi/first_item.xml"
+    },
+    {
+        "merged": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/build/intermediates/res/merged/release/layout-normal-mdpi-v4/drawer_list_item.xml",
+        "source": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/src/main/res/layout-normal-mdpi/drawer_list_item.xml"
+    }
+]

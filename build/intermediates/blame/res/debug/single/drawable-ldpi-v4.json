@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/build/intermediates/res/merged/debug/drawable-ldpi-v4/common_ic_googleplayservices.png",
+        "source": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/res/drawable-ldpi-v4/common_ic_googleplayservices.png"
+    },
+    {
+        "merged": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/build/intermediates/res/merged/debug/drawable-ldpi-v4/app_icon_mypiece.png",
+        "source": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/src/main/res/drawable-ldpi/app_icon_mypiece.png"
+    },
+    {
+        "merged": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/build/intermediates/res/merged/debug/drawable-ldpi-v4/image_loading_main_page.png",
+        "source": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/src/main/res/drawable-ldpi/image_loading_main_page.png"
+    },
+    {
+        "merged": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/build/intermediates/res/merged/debug/drawable-ldpi-v4/my_piece_logo.png",
+        "source": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/src/main/res/drawable-ldpi/my_piece_logo.png"
+    },
+    {
+        "merged": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/build/intermediates/res/merged/debug/drawable-ldpi-v4/mypiece_logo_gps.png",
+        "source": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/src/main/res/drawable-ldpi/mypiece_logo_gps.png"
+    }
+]

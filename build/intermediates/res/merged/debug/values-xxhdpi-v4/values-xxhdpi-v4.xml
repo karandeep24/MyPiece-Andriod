@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="row_home_height">250dp</dimen>
+    <dimen name="txt_jumbo">40sp</dimen>
+    <dimen name="txt_large">16sp</dimen>
+    <dimen name="txt_large_double">22sp</dimen>
+    <dimen name="txt_large_extra">18sp</dimen>
+    <dimen name="txt_medium">14sp</dimen>
+    <dimen name="txt_mini">7sp</dimen>
+    <dimen name="txt_small">12sp</dimen>
+    <dimen name="txt_small_extra">9.5sp</dimen>
+</resources>

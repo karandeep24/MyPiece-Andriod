@@ -1,0 +1,216 @@
+[
+    {
+        "outputFile": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/build/intermediates/res/merged/release/values-xxhdpi-v4/values-xxhdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 89,
+                        "endColumn": 57,
+                        "endOffset": 142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 55,
+                    "endOffset": 164
+                },
+                "from": {
+                    "file": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 147,
+                        "endColumn": 55,
+                        "endOffset": 198
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 169,
+                    "endColumn": 47,
+                    "endOffset": 212
+                },
+                "from": {
+                    "file": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 204,
+                        "endColumn": 47,
+                        "endOffset": 247
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 217,
+                    "endColumn": 40,
+                    "endOffset": 253
+                },
+                "from": {
+                    "file": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 559,
+                        "endColumn": 40,
+                        "endOffset": 595
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 258,
+                    "endColumn": 40,
+                    "endOffset": 294
+                },
+                "from": {
+                    "file": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 423,
+                        "endColumn": 40,
+                        "endOffset": 459
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 299,
+                    "endColumn": 47,
+                    "endOffset": 342
+                },
+                "from": {
+                    "file": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 511,
+                        "endColumn": 47,
+                        "endOffset": 554
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 347,
+                    "endColumn": 46,
+                    "endOffset": 389
+                },
+                "from": {
+                    "file": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 464,
+                        "endColumn": 46,
+                        "endOffset": 506
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 394,
+                    "endColumn": 41,
+                    "endOffset": 431
+                },
+                "from": {
+                    "file": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 381,
+                        "endColumn": 41,
+                        "endOffset": 418
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 436,
+                    "endColumn": 38,
+                    "endOffset": 470
+                },
+                "from": {
+                    "file": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 253,
+                        "endColumn": 38,
+                        "endOffset": 287
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 475,
+                    "endColumn": 40,
+                    "endOffset": 511
+                },
+                "from": {
+                    "file": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 340,
+                        "endColumn": 40,
+                        "endOffset": 376
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 516,
+                    "endColumn": 47,
+                    "endOffset": 559
+                },
+                "from": {
+                    "file": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 292,
+                        "endColumn": 47,
+                        "endOffset": 335
+                    }
+                }
+            }
+        ]
+    }
+]

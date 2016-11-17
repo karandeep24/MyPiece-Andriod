@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/build/intermediates/res/merged/release/menu/card_menu.xml",
+        "source": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/src/main/res/menu/card_menu.xml"
+    },
+    {
+        "merged": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/build/intermediates/res/merged/release/menu/activity_main_drawer.xml",
+        "source": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/src/main/res/menu/activity_main_drawer.xml"
+    },
+    {
+        "merged": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/build/intermediates/res/merged/release/menu/menu_app_tour.xml",
+        "source": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/src/main/res/menu/menu_app_tour.xml"
+    },
+    {
+        "merged": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/build/intermediates/res/merged/release/menu/main.xml",
+        "source": "/Users/karandsingh/AndroidStudioProjects/mypiece-android/MyPiece/myPiece/src/main/res/menu/main.xml"
+    }
+]

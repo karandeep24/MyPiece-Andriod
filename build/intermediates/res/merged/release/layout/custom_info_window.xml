@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:gravity="center"
+    android:id="@+id/infowindowll"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/badge"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+
+        android:adjustViewBounds="true" >
+    </ImageView>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="$3 Sub"
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#32b253"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+
+            android:id="@+id/snippet"
+            android:text="Subways"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/app_primary"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+</LinearLayout>

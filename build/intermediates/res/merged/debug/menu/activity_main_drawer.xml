@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/Nav_Drawer_Home"
+            />
+        <item
+            android:id="@+id/nav_purchases"
+            android:title="@string/Nav_Drawer_MyPurchases" />
+        <item
+            android:id="@+id/nav_account"
+            android:title="@string/Nav_Drawer_MyAccount" />
+        <item
+            android:id="@+id/nav_info"
+            android:title="@string/Nav_Drawer_GetInTouch" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:title="@string/Nav_Drawer_LogOut" />
+    </group>
+
+</menu>

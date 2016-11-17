@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="-7dp"
+    android:layout_marginLeft="-3dp"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearsss"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/relative111"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_margin="20dp"
+                android:id="@+id/linear_logo_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Recover_Pwd"
+                    android:textColor="#ffffff"
+                    android:textSize="35dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/recoverScreen"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/linear_email"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical" >
+
+                        <EditText
+                            android:layout_margin="10dp"
+                            android:id="@+id/email_edit"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:hint="@string/emf"
+                            android:imeOptions="actionNext"
+                            android:inputType="textEmailAddress"
+                            android:paddingLeft="10dp"
+                            android:textColor="#FFF"
+                            android:textColorHint="#FFF" />
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_sendMail"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="80dp"
+                android:layout_gravity="center"
+                android:background="@color/app_primary"
+                android:text="@string/ForgetPassword"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textColorHint="#FFFFFF"
+                android:textSize="16.5sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/verifyScreen"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:visibility="gone"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#FFFFFF"
+                            android:gravity="center"
+                            android:text="@string/VerifyPasswordMsg"
+                            android:layout_margin="10dp"
+                            android:textSize="18dp"
+                            />
+
+                        <EditText
+                            android:layout_margin="10dp"
+                            android:id="@+id/verification_code"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:hint="@string/VerifyPasswordTxt"
+                            android:imeOptions="actionNext"
+                            android:inputType="textEmailAddress"
+                            android:paddingLeft="10dp"
+                            android:textColor="#FFF"
+                            android:textColorHint="#FFF" />
+
+                        <EditText
+                            android:id="@+id/new_pwd"
+                            android:layout_margin="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:hint="@string/VerifyPasswordTxt1"
+                            android:imeOptions="actionNext"
+                            android:inputType="textPassword"
+                            android:paddingLeft="10dp"
+                            android:textColor="#FFF"
+                            android:textColorHint="#FFF" />
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_reset"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="80dp"
+                android:layout_gravity="center"
+                android:background="@color/app_primary"
+                android:text="@string/ResetPassword"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textColorHint="#FFFFFF"
+                android:textSize="16.5sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

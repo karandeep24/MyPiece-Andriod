@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="app_primary">#0A6B91</color>
+    <color name="app_primarydark">#0a435c</color>
+
+    <color name="divider_color">#979797</color>
+    <color name="profile_font_color">#5F5F5F</color>
+    <color name="support_font_color">#4A4A4A</color>
+    <color name="hint_color">#C7C7CD</color>
+    <color name="tour_btn_font">#00809F</color>
+    <color name="tour_line">#979797</color>
+    <color name="submit_new_color">#3F954D</color>
+    <color name="submit_support_color">#56A360</color>
+<color name="deal_info_all_title_color_new">#0A6B91</color>
+
+<color name="black">#000000</color>
+<color name="deal_info_button_background_color">#535257</color>
+<color name="new_save_share_button_background">#007F9E</color>
+</resources>

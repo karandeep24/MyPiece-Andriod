@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_page_relative"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFF"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary">
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/Act_Add_CreditCard"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ScrollView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:padding="15dp"
+                                android:layout_marginTop="10dp"
+                                >
+
+                                <EditText
+                                    android:id="@+id/cardName"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="@string/PaymentInfoHintNameCard"
+                                    android:textSize="18dp"
+                                    android:singleLine="true"
+                                    android:textColor="@color/app_primary"/>
+
+                                <EditText
+                                    android:id="@+id/cardNumber"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="@string/PaymentInfoHintCardNumber"
+                                    android:textSize="18dp"
+                                    android:layout_marginTop="10dp"
+                                    android:textColor="@color/app_primary"
+                                    android:inputType="number"
+                                    android:maxLength="19"
+                                    android:digits="01234 56789"
+                                    android:singleLine="true"
+
+                                    />
+
+                                <RelativeLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:paddingLeft="30dp"
+                                    android:paddingRight="30dp"
+                                    android:layout_marginTop="10dp"
+                                    >
+
+                                    <EditText
+                                        android:id="@+id/cardCVV"
+                                        android:layout_width="50dp"
+                                        android:layout_height="wrap_content"
+                                        android:hint="CVC"
+                                        android:textSize="18dp"
+                                        android:layout_alignParentLeft="true"
+                                        android:textColor="@color/app_primary"
+                                        android:inputType="number"
+                                        android:nextFocusDown="@+id/cardMM"
+                                        android:maxLength="3"
+                                        />
+
+                                    <EditText
+                                        android:id="@+id/cardMM"
+                                        android:layout_centerInParent="true"
+                                        android:layout_width="50dp"
+                                        android:layout_height="wrap_content"
+                                        android:hint="MM"
+                                        android:textSize="18dp"
+                                        android:textColor="@color/app_primary"
+                                        android:inputType="number"
+                                        android:nextFocusDown="@+id/cardYY"
+                                        android:maxLength="2"
+                                        />
+
+                                    <EditText
+                                        android:id="@+id/cardYY"
+                                        android:layout_alignParentRight="true"
+                                        android:layout_width="50dp"
+                                        android:layout_height="wrap_content"
+                                        android:hint="@string/YY"
+                                        android:textSize="18dp"
+                                        android:textColor="@color/app_primary"
+                                        android:inputType="number"
+                                        android:maxLength="2"/>
+
+                                </RelativeLayout>
+
+                                <EditText
+                                    android:id="@+id/cardHolderName"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="@string/PaymentInfoHintCardHolderName"
+                                    android:textSize="18dp"
+                                    android:textColor="@color/app_primary"
+                                    android:layout_marginTop="10dp"
+                                    android:singleLine="true"
+                                    />
+
+                                <EditText
+                                    android:id="@+id/cardAddress"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="@string/PaymentInfoHintCardAddress"
+                                    android:textSize="18dp"
+                                    android:textColor="@color/app_primary"
+                                    android:singleLine="true"
+                                    android:layout_marginTop="10dp"
+
+                                    />
+
+                                <EditText
+                                    android:id="@+id/cardAddress2"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="@string/PaymentInfoHintCardAddress2"
+                                    android:textSize="18dp"
+                                    android:textColor="@color/app_primary"
+                                    android:singleLine="true"
+                                    android:layout_marginTop="10dp"
+
+                                    />
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    >
+
+                                    <EditText
+                                        android:id="@+id/City"
+                                        android:layout_width="150dp"
+                                        android:layout_height="wrap_content"
+                                        android:hint="@string/PaymentInfoHintCardCity"
+                                        android:textSize="18dp"
+                                        android:textColor="@color/app_primary"
+                                        android:singleLine="true"
+                                        android:nextFocusDown="@+id/PostalCode"
+                                        />
+
+                                    <EditText
+                                        android:id="@+id/PostalCode"
+                                        android:layout_width="150dp"
+                                        android:layout_height="wrap_content"
+                                        android:hint="@string/PaymentInfoHintPostal"
+                                        android:textSize="18dp"
+                                        android:layout_marginLeft="35dp"
+                                        android:singleLine="true"
+                                        android:maxLength="6"
+                                        android:textColor="@color/app_primary"
+                                        />
+
+                                </LinearLayout>
+
+
+
+                                <EditText
+                                    android:id="@+id/cardEmail"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="@string/Email"
+                                    android:textSize="18dp"
+                                    android:singleLine="true"
+                                    android:textColor="@color/app_primary"
+                                    android:layout_marginTop="5dp"
+
+                                    />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </ScrollView>
+
+                </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/greenBtn"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="#32b253"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/btnSave"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp">
+
+                    <TextView
+                        android:id="@+id/textPay"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffff"
+                        android:gravity="center"
+                        android:text="@string/Save"
+                        android:textSize="20dp"
+                        android:textStyle="bold|italic"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/redBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="#f43446"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/btnDelete"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp">
+
+                    <TextView
+                        android:id="@+id/textDelete"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffff"
+                        android:gravity="center"
+                        android:text="@string/Delete"
+                        android:textSize="20dp"
+                        android:textStyle="bold|italic"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "591498455298",
+    "firebase_url": "https://mypiece-android-beta.firebaseio.com",
+    "project_id": "mypiece-android-beta",
+    "storage_bucket": "mypiece-android-beta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591498455298:android:c8d9d2e195b5fadb",
+        "android_client_info": {
+          "package_name": "com.mi.test.mypiece"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "591498455298-7h018ch6vbhlufdbr884ook1onkb1767.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZTHQ3nZML8fIpqyhPQLb1FjFWWftneV8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

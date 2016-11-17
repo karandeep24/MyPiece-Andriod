@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0a6b90"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="8dp"
+            android:paddingTop="35dp"
+            android:orientation="vertical">
+
+                    <android.support.v4.view.ViewPager
+                        android:id="@+id/pager"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        >
+                        <android.support.v4.view.PagerTabStrip
+                            android:id="@+id/pager_tab_strip"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top"
+                            android:background="#0a6b90"
+                            android:textColor="#ffffff"
+                            android:paddingTop="4dp"
+                            android:visibility="gone"
+                            android:paddingBottom="4dp" />
+
+                    </android.support.v4.view.ViewPager>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/close_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/enLanguage"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginRight="70dp"
+                android:background="@drawable/custom_close_fill"
+                >
+
+                <TextView
+                    android:id="@+id/enLanguageTxt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="En"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:textSize="23dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="13dp"
+                android:paddingBottom="13dp">
+
+                <TextView
+                    android:id="@+id/tour_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0a6b90"
+                    android:text="Close"
+                    android:textSize="25dp"
+                    android:textStyle="bold|italic"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/frLanguage"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="70dp"
+                android:background="@drawable/custom_close_primary"
+                >
+
+                <TextView
+                    android:id="@+id/frLanguageTxt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Fr"
+                    android:gravity="center"
+                    android:textColor="@color/app_primary"
+                    android:textSize="23dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:layout_marginBottom="65dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/one_dot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_close"
+                android:padding="6dp"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/two_dot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_close_ring"
+                android:padding="6dp"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/three_dot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_close_ring"
+                android:padding="6dp"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/four_dot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_close_ring"
+                android:padding="6dp"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+</LinearLayout>

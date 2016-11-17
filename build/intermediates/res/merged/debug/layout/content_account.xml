@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/creditInfo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/txt_yourPayment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/creditInfo"
+                    android:textStyle="bold|italic"
+                    android:textColor="@color/app_primary"
+                    android:textSize="18dp"/>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/firstCard"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/firstTextCardName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Credit"
+                            android:textSize="20dp"
+                            android:textColor="@color/app_primary"/>
+
+                        <TextView
+                            android:id="@+id/firstTextCardType"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="visa"
+                            android:gravity="right"
+                            android:textSize="16dp"
+                            android:textColor="@color/app_primary"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:padding="1dp"
+                        android:background="@color/app_primary"
+                        android:layout_marginTop="1dp">
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/secondCard"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/secondTextCardName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Credit"
+                            android:textSize="20dp"
+                            android:textColor="@color/app_primary"/>
+
+                        <TextView
+                            android:id="@+id/secondTextCardType"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="visa"
+                            android:gravity="right"
+                            android:textSize="16dp"
+                            android:textColor="@color/app_primary"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/secondCardLine"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:padding="1dp"
+                        android:background="@color/app_primary"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="1dp">
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/addCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:visibility="gone"
+                android:layout_marginTop="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_gravity="right"
+                android:background="@drawable/custom_close_primary">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/AddCard"
+                    android:textColor="@color/app_primary"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_billingEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/creditEmail"
+                    android:textColor="@color/app_primary"
+                    android:textStyle="bold|italic"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:id="@+id/creditEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/app_primary"
+                    android:textSize="17dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_locationService"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Location"
+                    android:textColor="@color/app_primary"
+                    android:textStyle="bold|italic"
+                    android:textSize="18dp"/>
+
+                <CheckBox
+                    android:id="@+id/loc_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_language"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold|italic"
+                    android:text="@string/creditLanguage"
+                    android:textColor="@color/app_primary"
+                    android:textSize="18dp"/>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="40dp">
+
+                    <LinearLayout
+                        android:id="@+id/enLanguage"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/custom_close_fill"
+                        >
+
+                        <TextView
+                            android:id="@+id/enLanguageTxt"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="En"
+                            android:gravity="center"
+                            android:textColor="#ffffff"
+                            android:textSize="28dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/frLanguage"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/custom_close_primary"
+                        >
+
+                        <TextView
+                            android:id="@+id/frLanguageTxt"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="Fr"
+                            android:gravity="center"
+                            android:textColor="@color/app_primary"
+                            android:textSize="28dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#32b253"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/btnSave"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp">
+
+            <TextView
+                android:id="@+id/textPay"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:text="@string/Save"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

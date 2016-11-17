@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyPiece</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- parse push -->
+    <string name="parse_app_id">24vUAObYQ2WeKmd0HHEWiZ1xkMCOhCVy1daLnVhv</string>
+    <string name="parse_client_key">diUVK8FPpSB6pgiNhcYk8zm2DiPkQsV3uzXX2e6C</string>
+
+    <!-- flurry -->
+    <string name="flurry_key">GQR6B8M4RW2D59HDBDYR</string>
+
+    <!-- facebook -->
+
+    <string name="com_facebook_dialogloginactivity_ok_button">OK</string>
+    <string name="com_facebook_loginview_log_out_button">Log out</string>
+    <string name="com_facebook_loginview_log_in_button">Facebook</string>
+    <string name="com_facebook_loginview_logged_in_as">Logged in as: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Logged in using Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Log out</string>
+    <string name="com_facebook_loginview_cancel_action">Cancel</string>
+    <string name="com_facebook_logo_content_description">Facebook Logo</string>
+    <string name="com_facebook_usersettingsfragment_log_in_button">Log in&#8230;</string>
+    <string name="com_facebook_usersettingsfragment_logged_in">Logged in</string>
+    <string name="com_facebook_usersettingsfragment_not_logged_in">Not logged in</string>
+    <string name="com_facebook_placepicker_subtitle_format">%1$s • %2$,d were here</string>
+    <string name="com_facebook_placepicker_subtitle_catetory_only_format">%1$s</string>
+    <string name="com_facebook_placepicker_subtitle_were_here_only_format">%1$,d were here</string>
+    <string name="com_facebook_picker_done_button_text">Done</string>
+    <string name="com_facebook_choose_friends">Choose Friends</string>
+    <string name="com_facebook_nearby">Nearby</string>
+    <string name="com_facebook_loading">Loading...</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest Error</string>
+    <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
+    <string name="com_facebook_requesterror_web_login">Your Facebook account is locked. Please log into www.facebook.com to continue.</string>
+    <string name="com_facebook_requesterror_relogin">Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_password_changed">Your Facebook password has changed. Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_reconnect">Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_permissions">This app doesn’t have permission to do this. To change permissions, try logging into the app again.</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+    <string name="ok">OK</string>
+    <string name="hello_user">Hello %1$s!</string>
+    <string name="success">Success</string>
+    <string name="successfully_posted_post">Successfully posted \'%1$s\'.\nPost ID: %2$s</string>
+    <string name="error">Error</string>
+    <string name="status_update">Updating status for %1$s at %2$s</string>
+    <string name="photo_post">Photo Post</string>
+    <string name="you_picked">You picked:</string>
+    <string name="no_friends_selected">&lt;No friends selected&gt;</string>
+    <string name="no_place_selected">&lt;No place selected&gt;</string>
+    <string name="pick_seattle_place">Pick a Seattle Place</string>
+    <!-- <string name="app_id">1432917463630650</string> new temp key -->
+    <!-- <string name="app_id">228659510675349</string> -->
+
+
+    <!-- FINAL -->
+    <string name="app_id">164160423926195</string>
+
+    <!-- <string name="app_id">605327702897121</string> -->
+    <string name="exception">Exception: %1$s</string>
+    <!-- facebook -->
+    <!-- twitter -->
+    <string name="twitter_sharedpref_name">Twitter-Credentials</string>
+    <string name="TWITTER_CONSUMER_KEY">9EQEJ555WkcLUPfQ0M19nCcgh</string>
+    <string name="TWITTER_CONSUMER_SECRET">U23ZfmZ0pOWs0masPoFE0CvHl7VRevsjztVzBbT7ePsivfb6Kd</string>
+    <string name="duplicate_msg">Can not post duplicate message</string>
+    <string name="tweet_success">Tweet successfully</string>
+
+    <!-- support -->
+
+    <string name="support_having_issue">Comments? Questions? \nWe\'d love to hear from you.</string>
+    <string name="support_date">Date</string>
+    <string name="support_call_back_number">Callback Number (optional)</string>
+    <string name="support_issue">Issue</string>
+    <string name="support_submit">Submit</string>
+    <string name="share101">Share</string>
+    <string name="emf">Email</string>
+    <!-- signup -->
+    <string name="via">Or contact us via</string>
+    <string name="signup_first_nm">First Name</string>
+    <string name="signup_last_nm">Last Name</string>
+    <string name="signup_email">Email</string>
+    <string name="signup_pwd">Password</string>
+    <string name="signup_c_pwd">Confirm Password</string>
+    <string name="signup_birthdate">Birthdate</string>
+    <string name="signup_male">Male</string>
+    <string name="signup_female">Female</string>
+
+    <!-- Menu -->
+    <string name="menu_home">Home</string>
+    <string name="menu_mypieces">My Purchases</string>
+    <string name="menu_filter">My Account</string>
+    <string name="menu_profile">Get in Touch!</string>
+    <string name="menu_support">Contact us</string>
+    <string name="menu_share">Tell a friend</string>
+    <string name="menu_french">French</string>
+    <string name="menu_logout">Logout</string>
+
+    <!-- Mypieces -->
+
+    <string name="nothing">Looks like you don\'t have any deals saved yet, check out current deals.</string>
+
+    <!-- Filters -->
+
+    <string name="clear_all">Reset</string>
+    <string name="search">Search</string>
+
+    <!-- Main -->
+    <string name="connect_fb">Connect with Facebook</string>
+    <string name="signup_email_main">Sign up with Email</string>
+    <string name="login">MyPiece with email</string>
+    <string name="take_a_tour">take a tour</string>
+
+    <!-- button -->
+
+    <string name="signup_btn">Sign up</string>
+    <string name="login_btn">Login</string>
+    <string name="login1">Log in</string>
+    <!-- tour_one -->
+    <string name="t_one_title">Get your piece. No Strings Attached.</string>
+    <string name="t_one">Find local promotions and discounts to your favorite restaurants free.</string>
+
+    <!-- Tour_two -->
+    <string name="t_two_title">Piece together your local finds.</string>
+    <string name="t_two">Use your location to access deals just a stone\'s throw away.</string>
+
+    <!-- Tour_three -->
+    <string name="t_three_title">Your piece of the pie.</string>
+    <string name="t_three">Once you find your deal, redemption is simply a click away.</string>
+
+    <!-- Tour four -->
+    <string name="t_four_title">Lets Get Started!</string>
+    <string name="t_four">It\'s free and easy to use. Sign up with one click by connecting with your facebook account, or using your email address.</string>
+    <string name="already_hv_acc">Already have an account ? Login</string>
+
+    <!-- Login -->
+
+    <string name="forgot_pwd">Forgot your password ?</string>
+    <string name="reset">Reset</string>
+    <string name="or">or</string>
+
+    <!-- Signup -->
+    <string name="signup_text">Sign Up</string>
+
+    <!-- Deal info -->
+
+    <string name="get_deal">Get the deal now</string>
+    <string name="use_deal">Use this deal</string>
+    <string name="save_deal_btn">Save Deal</string>
+    <string name="redeem_deal_btn">Redeem Deal</string>
+
+    <!-- Mypieces -->
+    <string name="expired_btn">Expired</string>
+    <string name="redeemed_btn">Redeemed</string>
+
+    <!-- Mypieces_expired_alert -->
+
+    <string name="not_available">Not Available</string>
+    <string name="is_curent">Is Currently</string>
+    <string name="pls_check_home">Please check the home page for the other great offers</string>
+
+    <!-- Mypieces_alert_box -->
+    <string name="here_is_ur_piece">Here Is Your Piece</string>
+    <string name="in_d_next">In the next</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="valid_till">Valid till</string>
+    <!-- Share -->
+    <string name="love_ur_app">Did you enjoy an awesome discount today? Feeling well-fed and satisfied?
+Spread the word.</string>
+    <string name="share_text">Hey! I thought you would love this app to help you save big on local restaurants free. Download it at www.mypiece.co/download</string>
+    <string name="share_fb_btn">Share on Facebook</string>
+    <string name="message_btn">Tell a friend</string>
+    <string name="share_by_email">Share by Email</string>
+    <string name="share_on_twitter">Share on Twitter</string>
+    <!-- Skip_ad -->
+    <string name="skip_ad">Skip Ad</string>
+    <string name="skip_now">Skip Ad Now</string>
+    <string name="credit_btn">1 Credit</string>
+
+    <!-- Deal_info -->
+
+    <string name="valid_d">Valid</string>
+    <string name="between_d">Between</string>
+    <string name="to_seprate_d">to</string>
+    <string name="get_directions_d">Get Directions</string>
+    <string name="time_d">Time remaining</string>
+    <string name="cancel_d">Cancel</string>
+    <!-- signup alert text -->
+    <string name="signup_alert">I accept terms and conditions, and allow for communication from Mypiece.</string>
+    <string name="signup_alert_cancel">Cancel</string>
+    <string name="signup_alert_agree">Agree</string>
+
+    <!-- New -->
+    <string name="you_have_already_used_this_deal">You have already used this deal.</string>
+    <string name="valid_in">Valid In</string>
+    <string name="offer_available_in">Offer Available In</string>
+    <string name="title_activity_main_activity12">MainActivity12</string>
+
+    <!-- new pull to refresh -->
+
+    <string name="pull_start">Pull to refresh..</string>
+    <string name="pull_medium">Release to refresh..</string>
+    <string name="pull_end">Loading..</string>
+    <!-- new deal_page -->
+    <string name="no_deal_avilable_txt">No Deals Available!</string>
+    <string name="ok_btn">Ok</string>
+
+    <!-- new location changed -->
+
+
+    <!-- Application identifiers -->
+
+    <string name="app_tag">LocationUpdates</string>
+    <string name="app_description">        Displays current address and current or updated location using Location Services</string>
+
+    <!-- User interface labels and strings -->
+
+
+    <!-- Address format -->
+    <string name="address_output_string">%1$s %2$s %3$s</string>
+
+    <!-- Latitude, longitude format -->
+    <string name="latitude_longitude">%1$.8f, %2$.8f</string>
+
+    <!-- Menu title -->
+
+
+    <!-- Labels -->
+    <string name="latlng">Lat/Long:</string>
+    <string name="address">Address:</string>
+
+    <!-- Messages -->
+    <string name="connected">Client connected</string>
+    <string name="connection_error_code_unknown">Unknown connection error code:  %1$d</string>
+    <string name="connection_failed">Connection failed</string>
+    <string name="disconnected">Client disconnected</string>
+    <string name="get_address">Get Address</string>
+    <string name="get_location">Get Location</string>
+    <string name="illegal_argument_exception">        Illegal arguments: Latitude %1$.8f Longitude %2$.8f</string>
+    <string name="invalid_action">Invalid intent action %1$s</string>
+    <string name="invalid_integer_id">Invalid integer request ID: %1$s</string>
+    <string name="IO_Exception_getFromLocation">IO Exception in Geocoder.getFromLocation()</string>
+    <string name="location_requested">Periodic updates requested</string>
+    <string name="location_updated">Location updated</string>
+    <string name="location_update_error">Location update failed</string>
+    <string name="location_update_error_detail">        Location update error. code %1$d message %2$s</string>
+    <string name="location_update_missing_update">        Location update error. No incoming location.</string>
+    <string name="location_updates_stopped">Periodic updates stopped</string>
+    <string name="log_new_location">New location: %1$s</string>
+    <string name="no_address_found">No address found for location</string>
+    <string name="no_connection">No connection</string>
+    <string name="no_geocoder_available">Cannot get address. No geocoder available.</string>
+    <string name="no_location_available">Location not available</string>
+    <string name="resolved">Error resolved. Please re-try operation.</string>
+    <string name="no_resolution">Google Play services: unable to resolve connection error.</string>
+    <string name="periodic_update_stop">Stopping periodic updates</string>
+    <string name="play_services_available">Google Play services is available</string>
+    <string name="request_location_updates_in_progress">        Can\'t request location updates, previous request hasn\'t finished</string>
+    <string name="start_updates">Start Updates</string>
+    <string name="stop_updates">Stop Updates</string>
+    <string name="unknown">--Unknown--</string>
+    <string name="unknown_activity_request_code">        Received an unknown activity request code %1$d in onActivityResult.</string>
+    <string name="title_activity_main_activity1">MainActivity1</string>
+    <string name="title_activity_main_activity21">MainActivity21</string>
+    <string name="connection_error_code">Connection failure error code: %1$d</string>
+    <string name="connection_error_disabled">Google Play services is disabled</string>
+    <string name="connection_error_internal">An internal error occurred</string>
+    <string name="connection_error_invalid">The version of Google Play services on this device is not authentic</string>
+    <string name="connection_error_invalid_account">The specified account name is invalid</string>
+    <string name="connection_error_license_check_failed">The app is not licensed to the user</string>
+    <string name="connection_error_message">Connection failure error message: %1$s</string>
+    <string name="connection_error_misconfigured">The application is misconfigured</string>
+    <string name="connection_error_missing">Google Play services is missing</string>
+    <string name="connection_error_needs_resolution">Additional resolution is required</string>
+    <string name="connection_error_network">A network error occurred</string>
+    <string name="connection_error_outdated">Google Play services is out of date</string>
+    <string name="connection_error_sign_in_required">The user is not signed in</string>
+    <string name="connection_error_unknown">An unknown error occurred</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="accept">Accept</string>
+
+    <!-- Mypieces new -->
+    <string name="are_u_sure_del">Are you sure you want to delete this?</string>
+    <string name="mypieces_yes">Yes</string>
+    <string name="mypieces_no">No</string>
+
+    <!-- Mainpage new -->
+    <string name="mainpage_dialog">Are you sure you want to quit?</string>
+
+    <!-- new toast alert msg -->
+    <string name="no_internet_connection">No Internet Connection.</string>
+    <string name="forgot_enter_email">Please Enter Email-Id.</string>
+
+    <string name="profile_pwd_cpwd_not_match">Password and Confirm password is not match.</string>
+    <string name="signup_email_not_valid">Email is not valid.</string>
+
+    <!-- new Update button -->
+    <string name="account_update_btn">Update</string>
+    <!-- new alert gps dialog -->
+    <string name="gps_title">GPS Settings</string>
+    <string name="gps_subtitle">GPS is not enabled. Do you want to go to settings menu?</string>
+    <string name="gps_setting_btn">Settings</string>
+    <string name="gps_cancel_btn">Cancel</string>
+
+    <!-- new error gps -->
+    <string name="error_gps_main_title">Looks like your GPS may be turned off.</string>
+    <string name="error_gps_sub_title">Navigate to Settings > Privacy > Location \nServices and make sure "Location \nServices" and MyPiece are toggled On.</string>
+    <string name="error_gps_btn_setting">Go to settings</string>
+    <string name="error_gps_btn_viewall">View all locations</string>
+
+    <!-- new out of town -->
+    <string name="no_town_main_title">Looks like MyPiece is not currently available in:</string>
+    <string name="no_town_button_notify">Notify me when it is available</string>
+    <!-- in town -->
+    <string name="intown_main_title">Looks like MyPiece does not have any active deals in:</string>
+    <string name="intown_time">Please check again at 8:00 am</string>
+    <string name="in_town_notify_me">Notify Me</string>
+    <string name="title_activity_referral_code">ReferralCodeActivity</string>
+    <string name="promotion">Promotion</string>
+    <string name="the_fine_print">The Fine Print</string>
+    <string name="by_creating_an_account_you_agree_to_the">By creating an account you agree to the</string>
+
+    <!--     new string of deal information -->
+    <string name="promotion_deal_info">PROMOTION</string>
+    <string name="time_remians_deal_info">TIME REMAINING</string>
+    <string name="valid_deal_info">VALID</string>
+    <string name="address_deal_info">ADDRESS</string>
+    <string name="the_fine_print_deal_info">DEAL DESCRIPTION</string>
+    <!-- THE FINE PRINT Deal Description-->
+    <string name="btn_footer_save_deal_info">SAVE DEAL</string>
+    <string name="btn_footer_redeem_deal_info">REDEEM DEAL</string>
+    <string name="share_new">Tell a Friend</string>
+    <string name="directions_new">Directions</string>
+    <!-- promotion code -->
+    <string name="menu_promotioncode">Promotion Code</string>
+    <string name="do_u_hv_promotional_code">Do you have a Promotion Code or Referral Code?</string>
+    <string name="do_u_hv_promotional_code_submit_btn">Submit</string>
+    <string name="do_u_hv_promotional_code_code_hint">Code</string>
+    <string name="title_activity_share_page_activity2">Subway Secret Contest</string>
+    <string name="title_activity_uber">Uber</string>
+    <string name="title_activity_app_tour">AppTour</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="navigation_drawer_open">MyPiece</string>
+    <string name="navigation_drawer_close">MyPiece</string>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/custom_close</item>
+        <item>@drawable/custom_close</item>
+        <item>@drawable/custom_close</item>
+        <item>@drawable/custom_close</item>
+    </array>
+
+
+
+    <string name="ConnectGooglePlus">CONNECT WITH Google+</string>;
+    <string name="ConnectFacebook">CONNECT WITH Facebook</string>;
+    <string name="Sign_Up">Sign Up</string>;
+    <string name="creditInfo">Your Payment Info :</string>;
+    <string name="noCreditInfo">No Credit Info Found</string>;
+    <string name="AddCard">Add Card + </string>;
+    <string name="Location">Location Service</string>;
+    <string name="creditEmail">Billing Email Address :</string>;
+    <string name="creditLanguage">Your Language :</string>;
+    <string name="Save">Save</string>;
+    <string name="Delete">Delete</string>;
+    <string name="PaymentInfo">Payment Info</string>;
+    <string name="PaymentInfoHintNameCard">Name this card (e.g Dads card)</string>;
+    <string name="PaymentInfoHintCardNumber">Credit Card Number</string>;
+    <string name="PaymentInfoHintCardHolderName">Cardholder Name</string>;
+    <string name="PaymentInfoHintCardAddress">Address Line</string>;
+    <string name="PaymentInfoHintCardAddress2">Apt#. Floor. P.O Box</string>;
+    <string name="PaymentInfoHintCardCity">City</string>;
+    <string name="Email">Email for Payments Receipt</string>;
+    <string name="PaymentInfoHintPostal">Postal/Zip Code</string>;
+    <string name="PaymentScreenMessageHeader">Thank You !</string>;
+    <string name="PaymentScreenMessage1">Head over to My Purchases to View  your order</string>;
+    <string name="PaymentScreenMessage3">Always remember, you have above time to redeem this deal.</string>;
+    <string name="PaymentScreenMessage4">Please see deal details for more info.</string>;
+    <string name="RedeemDealMsg1">This Deal has expired,</string>;
+    <string name="RedeemDealMsg2">you will be able to redeem it again on </string>;
+    <string name="WarningScreenMessageHeader">Warning</string>;
+    <string name="WarningScreenMessage1">To redeem this deal, show</string>;
+    <string name="WarningScreenMessage2">this page to the staff member</string>;
+    <string name="WarningScreenMessage3">and they will redeem it.</string>;
+    <string name="WarningScreenMessage4">Once Redeem is pressed, your deal is no longer valid.</string>;
+    <string name="Continue">CONTINUE</string>;
+    <string name="RedeemQues">Are you Staff ?</string>;
+    <string name="RedeemThanks">Thank You for your purchase !</string>;
+    <string name="RedeemThanksMsg">Your deal has been redeemed and is no longer valid.</string>;
+    <string name="ShowPassword">Show Password</string>;
+    <string name="FindFacebook">Find us on Facebook</string>;
+    <string name="GetInTouchEmail">Shoot us an email</string>;
+    <string name="GetInTouchEmailID">support@mypiece.co</string>;
+    <string name="GetInTouchCAll">Give us a call (or text)</string>;
+    <string name="GetInTouchCAllID">514 823 0286</string>;
+    <string name="MyPurchaseNoItemMsg1">Looks like your plate is empty.</string>;
+    <string name="MyPurchaseNoItemMsg2">Visit our homepage to make a purchase.</string>;
+    <string name="ExpiredDealMsg1">This Deal is no longer valid and cannot be redeemed.</string>;
+    <string name="ExpiredDealMsg2">Please contact us if you have any questions.</string>;
+    <string name="CheckOutScreenTitle">Quick Tip</string>;
+    <string name="CheckOutScreenMsg1">Each purchase may only be</string>;
+    <string name="CheckOutScreenMsg2">redeemed once</string>
+    <string name="CheckOutScreenMsgFooter">Do not show me this again</string>;
+    <string name="DashboardNoItemMsg1">We are cooking up some deals right now, and they will be ready on </string>;
+
+
+    <string name="Tour_One">With over 100+ restaurants in the Montreal Downtown area, finding great food at even better prices has never been so easy.</string>;
+
+
+    <string name="Tour_Two_A">We have done a lot to make sure you find the best deals around you easily.</string>;
+
+
+    <string name="Tour_Two_B">It\'s simple; turn on your location services in your account settings and we will find the closest deals to you.</string>;
+
+
+    <string name="Tour_Three_A">Save time with secure mobile payments so you can get to</string>;
+    <string name="Tour_Three_B">what\'s important - enjoying your food !</string>;
+    <string name="Tour_Four_A">Remember you can only redeem each purchase ONE TIME !</string>;
+
+
+    <string name="Tour_Four_B">That means if you order 30 subs in one purchase, buckle your seatbelts because you must redeem the whole purchase at the same time !</string>;
+
+
+    <string name="Recover_Pwd">Recover Password</string>;
+    <string name="ForgetPassword">SEND MAIL</string>
+    <string name="ResetPassword">RESET</string>
+
+
+    <string name="VerifyPasswordMsg">Please enter your 6 digit verification code along with your new password.</string>
+
+
+    <string name="VerifyPasswordTxt">Verification Code</string>
+    <string name="VerifyPasswordTxt1">New Password</string>
+
+
+    <string name="Valid_Email">Please enter a Valid Email !</string>
+    <string name="Complete_Information">Please complete the required information !</string>
+    <string name="LogInPopMsg1">You will need to Sign Up for a new account even if you had an old one !</string>
+
+
+
+
+    <string name="No_Connection">No Internet Connection Available !</string>
+    <string name="Toast_Location_Granted">Permission Granted for the Location</string>
+    <string name="Toast_Location_Denied">Oops... Permission Denied for the Location</string>
+    <string name="Toast_Select_CheckBox">Please, Tick the checkbox.</string>
+    <string name="Toast_Login_enter_full_detail">Please enter full details.</string>
+    <string name="Toast_Facebook_Granted">Authenticated from Facebook !</string>
+    <string name="Toast_No_Deals">No Deals Found Near You !</string>
+    <string name="Toast_Add_Card">Need to Add Card to make Payment</string>
+    <string name="Error_Encounter">Application Encountered Some Problem</string>
+
+
+
+
+    <!--Deal Description-->
+    <string name="Act_Deal_Desc_DealDescription">Deal Description</string>
+    <string name="Act_Deal_Desc_TimeRemaining">Time Remaining</string>
+    <string name="Act_Deal_Desc_Where">Where ?</string>
+    <string name="Act_Deal_Desc_Purchase">Purchase</string>
+
+
+    <!--Proceed Checkout-->
+    <string name="Act_Proceed_Chkout_Header1">How many would you</string>
+    <string name="Act_Proceed_Chkout_Header2">like to buy ?</string>
+    <string name="Act_Proceed_Chkout_Header3">Select add-ons</string>
+    <string name="Act_Proceed_Chkout_Checkout">CHECKOUT</string>
+
+
+    <!--Payment Screen-->
+    <string name="Act_Payment_Screen_Header1">Payment Method</string>
+    <string name="Act_Payment_Screen_Header2">Order Summary</string>
+
+
+    <!--My Purchase-->
+    <string name="Act_MyPurchase_Footer1">Purchased on : </string>
+    <string name="Act_MyPurchase_Redeem">REDEEM</string>
+    <string name="Act_MyPurchase_Dismiss">DISMISS</string>
+    <string name="Act_MyPurchase_Redeem_Header1">Your Order Summary</string>
+    <string name="Act_MyPurchase_Redeem_Footer"> of </string>
+
+
+    <string name="Act_Add_CreditCard"> Credit Card </string>
+
+
+    <string name="Toast_Add_CardAdded">Credit Card Added !</string>
+    <string name="Toast_Add_CardDeleted">Credit Card deleted !</string>
+    <string name="Toast_Redeem_Failure">Not able to redeem the Deal !</string>
+    <string name="Toast_Add_Card_Name">Please Enter Name of the Card !</string>
+    <string name="Toast_Add_Card_Number">Please Enter Valid Card Number !</string>
+    <string name="Toast_Add_Card_CVC">Please Enter Valid Card CVC !</string>
+    <string name="Toast_Add_Card_Month">Please Enter Valid Expiry Month !</string>
+    <string name="Toast_Add_Card_Year">Please Enter Valid Expiry Year !</string>
+    <string name="Toast_Add_Card_HolderName">Please Enter Card Holder\'s Name !</string>
+    <string name="Toast_Add_Card_Address">Please Enter Address !</string>
+    <string name="Toast_Add_Card_City">Please Enter City !</string>
+    <string name="Toast_Add_Card_Code">Please Enter Valid Postal Code !</string>
+    <string name="Toast_Add_Card_Email">Please Enter Valid Email Address !</string>
+
+    <string name="Nav_Drawer_Home">Home</string>
+    <string name="Nav_Drawer_MyPurchases">My Purchases</string>
+    <string name="Nav_Drawer_MyAccount">My Account</string>
+    <string name="Nav_Drawer_GetInTouch">Get In Touch</string>
+    <string name="Nav_Drawer_LogOut">Log Out</string>
+
+    <string name="Act_Payment_Screen_Pay">Pay</string>
+
+    <string name="Act_Tour_Close">Close</string>
+    <string name="Retry">Retry</string>
+
+
+    <string name="Pop_No_Network">Network problem, Please check the network connection</string>
+
+    <string name="GST">GST</string>
+    <string name="QST">QST</string>
+    <string name="YY">YY</string>
+    <string name="and">and</string>
+
+    <string name="TermsCondition">Terms and Conditions</string>
+    <string name="Toast_WrongEmail">Please Enter a valid Email Address</string>
+
+
+    <string name="Dashboard_Act_At">at</string>
+
+
+
+</resources>

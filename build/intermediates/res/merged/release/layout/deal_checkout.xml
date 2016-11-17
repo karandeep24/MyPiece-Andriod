@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary">
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Deal Checkout"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Act_Proceed_Chkout_Header1"
+                    android:gravity="center"
+                    android:textColor="@color/app_primary"
+                    android:textSize="22dp"
+                    />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Act_Proceed_Chkout_Header2"
+                    android:gravity="center"
+                    android:textColor="@color/app_primary"
+                    android:textSize="22dp"
+                    />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="25dp">
+
+                    <TextView
+                        android:id="@+id/nameDeal"
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:text="$6 trio"
+                        android:textSize="17dp"
+                        android:textColor="@color/app_primary"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_centerInParent="true"
+                    android:paddingLeft="60dp"
+                    android:layout_marginRight="25dp">
+
+                    <LinearLayout
+                        android:id="@+id/mainSubtractButton"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:background="@drawable/custom_close_primary"
+                        android:layout_alignParentRight="true"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/app_primary"
+                            android:text="-"
+                            android:layout_marginBottom="5dp"
+                            android:textSize="25dp"
+                            android:textStyle="bold"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        >
+
+                        <TextView
+                            android:id="@+id/mainCount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/app_primary"
+                            android:text="1"
+                            android:textSize="20dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/mainAddButton"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:background="@drawable/custom_close_primary"
+                        android:layout_alignParentLeft="true"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/app_primary"
+                            android:text="+"
+                            android:layout_marginBottom="5dp"
+                            android:textSize="25dp"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="25dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="+ "
+                        android:textSize="17dp"
+                        android:textColor="@color/app_primary"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/mainTextPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$1,25"
+                        android:textSize="17dp"
+                        android:textColor="@color/app_primary"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="25dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="1dp"
+                android:orientation="horizontal"
+                android:background="@color/app_primary"
+                ></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Act_Proceed_Chkout_Header3"
+                    android:textSize="22dp"
+                    android:layout_marginLeft="25dp"
+                    android:textColor="@color/app_primary"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/addOnOne"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="25dp">
+
+                        <TextView
+                            android:id="@+id/addOnOneName"
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:text="Pita Bread"
+                            android:textSize="17dp"
+                            android:textColor="@color/app_primary"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingLeft="60dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginRight="25dp">
+
+                        <LinearLayout
+                            android:id="@+id/addOnOneSubtractButton"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:gravity="center"
+                            android:background="@drawable/custom_close_primary"
+                            android:layout_alignParentRight="true"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/app_primary"
+                                android:text="-"
+                                android:layout_marginBottom="5dp"
+                                android:textSize="25dp"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            >
+
+                            <TextView
+                                android:id="@+id/addOnOneCount"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/app_primary"
+                                android:text="1"
+                                android:textSize="20dp"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/addOnOneAddButton"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:gravity="center"
+                            android:background="@drawable/custom_close_primary"
+                            android:layout_alignParentLeft="true"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/app_primary"
+                                android:text="+"
+                                android:layout_marginBottom="5dp"
+                                android:textSize="25dp"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="25dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="+ "
+                            android:textSize="17dp"
+                            android:textColor="@color/app_primary"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/addOnOneTextPrice"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="$1,25"
+                            android:textSize="17dp"
+                            android:textColor="@color/app_primary"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/addOnTwo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="25dp">
+
+                        <TextView
+                            android:id="@+id/addOnTwoName"
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:text="$6 trio"
+                            android:textSize="17dp"
+                            android:textColor="@color/app_primary"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingLeft="60dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginRight="25dp">
+
+                        <LinearLayout
+                            android:id="@+id/addOnTwoSubtractButton"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:gravity="center"
+                            android:background="@drawable/custom_close_primary"
+                            android:layout_alignParentRight="true"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/app_primary"
+                                android:text="-"
+                                android:layout_marginBottom="5dp"
+                                android:textSize="25dp"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            >
+
+                            <TextView
+                                android:id="@+id/addOnTwoTextCount"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/app_primary"
+                                android:text="1"
+                                android:textSize="20dp"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/addOnTwoAddButton"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:gravity="center"
+                            android:background="@drawable/custom_close_primary"
+                            android:layout_alignParentLeft="true"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/app_primary"
+                                android:text="+"
+                                android:layout_marginBottom="5dp"
+                                android:textSize="25dp"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="5dp"
+
+                        android:layout_marginRight="25dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="+ "
+                            android:textSize="17dp"
+                            android:textColor="@color/app_primary"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/addOnTwoTextPrice"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="$1,25"
+                            android:textSize="17dp"
+                            android:textColor="@color/app_primary"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/addOnThree"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="25dp">
+
+                        <TextView
+                            android:id="@+id/addOnThreeName"
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:text="$6 trio"
+                            android:textSize="17dp"
+                            android:textColor="@color/app_primary"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingLeft="60dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginRight="25dp">
+
+                        <LinearLayout
+                            android:id="@+id/addOnThreeSubtractButton"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:gravity="center"
+                            android:background="@drawable/custom_close_primary"
+                            android:layout_alignParentRight="true"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/app_primary"
+                                android:text="-"
+                                android:layout_marginBottom="5dp"
+                                android:textSize="25dp"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            >
+
+                            <TextView
+                                android:id="@+id/addOnThreeTextCount"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/app_primary"
+                                android:text="1"
+                                android:textSize="20dp"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/addOnThreeAddButton"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:gravity="center"
+                            android:background="@drawable/custom_close_primary"
+                            android:layout_alignParentLeft="true"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/app_primary"
+                                android:text="+"
+                                android:layout_marginBottom="5dp"
+                                android:textSize="25dp"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="25dp"
+                        android:layout_marginTop="5dp"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="+ "
+                            android:textSize="17dp"
+                            android:textColor="@color/app_primary"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/addOnThreeTextPrice"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="$1,25"
+                            android:textSize="17dp"
+                            android:textColor="@color/app_primary"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#32b253"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/btnProceed"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp">
+
+                <TextView
+                    android:id="@+id/textProceedCheckout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:text="@string/Act_Proceed_Chkout_Checkout"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>
